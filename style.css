@@ -71,35 +71,57 @@ p {
     text-align: center;
     vertical-align: middle;
 }
-.menu{
-    list-style:none;
+
+.menu {
+    list-style: none;
     font-family: fantasy;
-    position:absolute;
-    top:10px;
-    right:30px;
-    z-index:10px;
-    cursor:pointer;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10px;
+    cursor: pointer;
 }
-.links{
-    float:left;
-    color:aqua;
+
+.links {
+    float: left;
+    color: aqua;
     padding-top: 5px;
-    padding-left:9px;
+    padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
-    font-family: monospace
-        font-size:20px;
-    color:darkviolet;
+    font-family: monospace font-size:20px;
+    color: darkviolet;
 }
-.links:hover{
-    background-color:deeppink;
+
+.links:hover {
+    background-color: deeppink;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.article:hover{
-    color:darkturquoise;
+
+.article:hover {
+    color: darkturquoise;
 }
-html{
+
+html {
     scroll-behavior: smooth
+}
+
+#contact {
+    background: firebrick;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
 }
