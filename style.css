@@ -92,5 +92,14 @@ p {
     color:darkviolet;
 }
 .links:hover{
-    background-color:darkviolet;
+    background-color:deeppink;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color:darkturquoise;
+}
+html{
+    scroll-behavior: smooth
 }
